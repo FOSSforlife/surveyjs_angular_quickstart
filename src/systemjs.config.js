@@ -12,7 +12,8 @@
     map: {
       // our app is within the app folder
       app: 'app',
-
+      css: 'node_modules/systemjs-plugin-css/css.js',
+      
       // angular bundles
       '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
       '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
@@ -25,7 +26,16 @@
 
       // other libraries
       'rxjs':                      'npm:rxjs',
-      'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
+      'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
+      'survey-angular': 'npm:survey-angular/survey.angular.js',
+      'knockout': 'npm:knockout/build/output/knockout-latest.js',
+      'survey-knockout': 'npm:survey-knockout/survey.ko.js',
+      'surveyjs-editor': 'npm:surveyjs-editor/surveyeditor.js'
+    },
+    meta: {
+      'surveyjs-editor': {
+        deps: ['npm:surveyjs-editor/surveyeditor.css!css', 'npm:survey-angular/survey.css!css', 'http://getbootstrap.com/dist/css/bootstrap.css!css']
+      }
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {

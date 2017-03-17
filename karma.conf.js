@@ -58,6 +58,15 @@ module.exports = function(config) {
 
       { pattern: appBase + '/systemjs.config.js', included: false, watched: false },
       { pattern: appBase + '/systemjs.config.extras.js', included: false, watched: false },
+
+      // SurveyJS specific files
+      { pattern: '**/*.css', included: false, watched: false },
+      { pattern: 'node_modules/systemjs-plugin-css/css.js', included: false, watched: false },
+     'node_modules/knockout/build/output/knockout-latest.js',
+     'node_modules/survey-angular/survey.angular.js',
+     'node_modules/survey-knockout/survey.ko.js',
+     'node_modules/surveyjs-editor/surveyeditor.js',
+
       'karma-test-shim.js', // optionally extend SystemJS mapping e.g., with barrels
 
       // transpiled application & spec code paths loaded via module imports

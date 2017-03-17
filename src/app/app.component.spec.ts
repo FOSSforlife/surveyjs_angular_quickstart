@@ -1,4 +1,6 @@
 import { AppComponent } from './app.component';
+import { SurveyComponent } from './survey.component';
+import { SurveyEditorComponent } from './survey.editor.component';
 
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By }           from '@angular/platform-browser';
@@ -11,7 +13,7 @@ describe('AppComponent', function () {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppComponent ]
+      declarations: [ AppComponent, SurveyComponent, SurveyEditorComponent ]
     })
     .compileComponents();
   }));
@@ -27,7 +29,7 @@ describe('AppComponent', function () {
   it('should have expected <h1> text', () => {
     fixture.detectChanges();
     const h1 = de.nativeElement;
-    expect(h1.innerText).toMatch(/angular/i,
-      '<h1> should say something about "Angular"');
+    expect(h1.innerText).toMatch(/survey/i,
+      '<h1> should say something about "Survey"');
   });
 });
