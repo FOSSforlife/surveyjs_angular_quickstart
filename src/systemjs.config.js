@@ -29,6 +29,8 @@
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
       'survey-angular': 'npm:survey-angular/survey.angular.js',
       'knockout': 'npm:knockout/build/output/knockout-latest.js',
+      'jquery': 'npm:jquery/dist/jquery.min.js',
+      'bootstrap': 'npm:bootstrap/dist/js/bootstrap.min.js',
       'survey-knockout': 'npm:survey-knockout/survey.ko.js',
       'surveyjs-editor': 'npm:surveyjs-editor/surveyeditor.js'
     },

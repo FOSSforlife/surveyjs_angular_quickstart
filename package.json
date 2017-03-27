@@ -35,6 +35,8 @@
     "angular-in-memory-web-api": "~0.2.4",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
+    "jquery": "^2.1.0",
+    "bootstrap": "^3.3.7",
     "survey-angular": "^0.12.4",
     "surveyjs-editor": "^0.12.4",
     "systemjs": "0.19.40",
