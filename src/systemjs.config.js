@@ -32,7 +32,8 @@
       'jquery': 'npm:jquery/dist/jquery.min.js',
       'bootstrap': 'npm:bootstrap/dist/js/bootstrap.min.js',
       'survey-knockout': 'npm:survey-knockout/survey.ko.js',
-      'surveyjs-editor': 'npm:surveyjs-editor/surveyeditor.js'
+      'surveyjs-editor': 'npm:surveyjs-editor/surveyeditor.js',
+      'heatmap.js': 'npm:heatmap.js/build/heatmap.js'
     },
     meta: {
       'surveyjs-editor': {

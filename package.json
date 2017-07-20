@@ -33,10 +33,11 @@
     "@angular/platform-browser-dynamic": "~2.4.0",
     "@angular/router": "~3.4.0",
     "angular-in-memory-web-api": "~0.2.4",
-    "core-js": "^2.4.1",
-    "rxjs": "5.0.1",
-    "jquery": "^2.1.0",
     "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "heatmap.js": "^2.0.5",
+    "jquery": "^2.1.0",
+    "rxjs": "5.0.1",
     "survey-angular": "^0.12.4",
     "surveyjs-editor": "^0.12.4",
     "systemjs": "0.19.40",
@@ -44,6 +45,7 @@
     "zone.js": "^0.7.4"
   },
   "devDependencies": {
+    "@types/heatmap.js": "^2.0.33",
     "@types/jasmine": "2.5.36",
     "@types/knockout": "^3.4.40",
     "@types/node": "^6.0.46",
@@ -60,7 +62,7 @@
     "protractor": "~4.0.14",
     "rimraf": "^2.5.4",
     "tslint": "^3.15.1",
-    "typescript": "~2.0.10"
+    "typescript": "~2.3.2"
   },
   "repository": {}
 }
