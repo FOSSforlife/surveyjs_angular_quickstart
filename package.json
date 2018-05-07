@@ -37,8 +37,8 @@
     "rxjs": "5.0.1",
     "jquery": "^3.1.1",
     "bootstrap": "^3.3.7",
-    "survey-angular": "^0.12.4",
-    "surveyjs-editor": "^0.12.4",
+    "survey-angular": "^1.0.20",
+    "surveyjs-editor": "^1.0.20",
     "systemjs": "0.19.40",
     "systemjs-plugin-css": "^0.1.33",
     "zone.js": "^0.7.4"

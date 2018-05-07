@@ -36,7 +36,7 @@
     },
     meta: {
       'surveyjs-editor': {
-        deps: ['npm:surveyjs-editor/surveyeditor.css!css', 'npm:survey-angular/survey.css!css', 'http://getbootstrap.com/dist/css/bootstrap.css!css']
+        deps: ['npm:surveyjs-editor/surveyeditor.css!css', 'npm:survey-angular/survey.css!css', 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css!css']
       }
     },
     // packages tells the System loader how to load when no filename and/or no extension
